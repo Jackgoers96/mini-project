@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Wireframe</title>
+</head>
+<body>
+    <header>
+        <h1>
+            CSS Snippet Sheet
+        </h1>
+        <p class="top">
+            This is going to be the descriptive text of our snippet. Click any of the code below to automatically copy it!
+        </p>
+    </header>
+        <main>
+            <section>
+                <h2>
+                    FlexBox Row
+                </h2>
+                <p>Use these properties to create a flexbox row layout</p>
+                <pre>
+                    .row {
+                        display:flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                </pre>
+                </section>
+                <section>
+                    <h2>
+                        Flexbox Column
+                    </h2>
+                    <p>Use this to create a Flexbox Column Layout</p>
+                    <pre>
+                        .column {
+                            display:flex;
+                            flex-direction: column;
+                        }
+                    </pre>
+                </section>
+                <section>
+                    <h2>
+                        CSS Grid Layout
+                    </h2>
+                    <p>Build a 12 Column Layout Using a CSS Grid</p>
+                    <pre>
+                            .grid{
+                            display:grid;
+                            width: 100%;
+                            grid-template-columns: repeat(12, 1fr);
+                            }
+                    </pre>
+                </section>
+            </main>
+            <div id="main2">
+                <section>
+                    <h2>
+                        Linear Gradients
+                    </h2>
+                    <p>This will create a background linear gradient from top to bottom</p>
+                    <pre>
+                         
+                            .linear-gradient-background{
+                                background-image: linear-gradient(
+                                rgba(232, 102, 236, 0.3) 0%,
+                                rgba(232, 102, 236, 0.6) 100%);
+                            }
+                    </pre>
+                </section>
+                <section>
+                    <h2>
+                        Box Transition Glow
+                    </h2>
+                    <p>Use transition and box shadows to glow on hover</p>
+                    <pre>
+                         .code-card .card-header {
+                             border-radius: 8px;
+                             transition: all 0.5s ease-in-out
+                         }
+                    </pre>
+                </section>
+                <section>
+                    <h2>
+                        Overlay Card with Title
+                    </h2>
+                    <p>Use Position Properties and negative margins to raise elements higher than their natural starting points</p>
+                    <pre>
+                         .card-header {
+                             position:relative;
+                             margin-top:-20px;
+                             
+                            }
+                    </pre>
+                </section>
+            </div>
+         
+    
+</body>
+</html>
